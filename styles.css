@@ -1,0 +1,22 @@
+@import url(libraries/normalize.css);
+html {
+  height: 100%;
+  width: 100%; }
+  html body {
+    height: 100%;
+    width: 100%;
+    background-color: #000033; }
+    html body #navbar {
+      height: 60px;
+      width: 100%;
+      display: flex;
+      align-items: center; }
+      html body #navbar #logo-small {
+        display: flex;
+        align-items: center;
+        padding-left: 10px; }
+        html body #navbar #logo-small svg {
+          height: 30px;
+          width: auto; }
+
+/*# sourceMappingURL=styles.css.map */

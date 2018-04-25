@@ -1,8 +1,8 @@
-// START OF VUE COMPONENTS
+ // START OF VUE COMPONENTS
 
 // // navbar
 Vue.component("menu", {
-    template: ""
+    template: "<div></div>"
 });
 
 // END OF VUE COMPONENTS

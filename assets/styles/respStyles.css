@@ -1,8 +1,26 @@
-html {
-  height: 100%; }
-  html body {
-    height: 100%;
-    padding: 0;
-    margin: 0; }
+#menu-bar {
+  width: 240px;
+  height: 40px; }
+
+#logo-small svg {
+  height: 20px;
+  width: auto; }
+
+#navbar {
+  height: 30px; }
+
+@media screen and (min-width: 540px) {
+  #menu-bar {
+    width: 360px; }
+
+  #navbar {
+    height: 60px; }
+
+  #logo-small svg {
+    height: 20px;
+    width: auto; } }
+@media screen and (min-width: 960px) {
+  #menu-bar {
+    width: 560px; } }
 
 /*# sourceMappingURL=respStyles.css.map */

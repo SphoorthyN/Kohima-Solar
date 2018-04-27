@@ -1,4 +1,6 @@
 .sass-cache/
-*.css.map
 .idea/
-*.css
+styles.css.map
+styles.css
+assets/styles/respStyles.css
+assets/styles/respStyles.css.map

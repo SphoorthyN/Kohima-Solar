@@ -1,8 +1,9 @@
  // START OF VUE COMPONENTS
 
 // // navbar
-Vue.component("menu", {
-    template: "<div></div>"
+Vue.component("menu-tab", {
+    props: ['menu'],
+    template: "<div class=\"menu-tab\"><span>{{ menu.menu }}</span></div>"
 });
 
 // END OF VUE COMPONENTS
@@ -27,7 +28,6 @@ var vue = new Vue({
                 id: 3,
                 menu: "contact"
             }
-
         ]
 
     },
